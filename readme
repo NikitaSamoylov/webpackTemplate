@@ -1,0 +1,21 @@
+/*
+1. npm init -y
+2. npm i -D webpack webpack-cli webpack dev-server
+3. right commands in package.json 
+4. make webpack.config.js and start writing
+5. add html-webpack-plugin (const upstairs and in module.exports)
+6. Make autorealod our server page in brower. For it install html-loader. For him we should make in config module: {rules:[{}]} and then 
+add import './index.html' into index.js;
+7. Lets work with styles. Install style-loader css-loader, write rules and add import style.css into index.js
+8. Now styles we add across javascript into html. Let's add style with additional file. For it install minicssextractplugin. Add him in plugins 
+AND him we add in rules where css is
+9. Let's add sass support. For it install sass sass-loader and add loader in rules where css is.
+10. Add prefixes for our styles. Install postcss and postcss-loader postcss-preset-env.
+11. Install babel loader. add rules.
+12. Additionally install babel polyfill npm install --save @babel/polyfill and right import "@babel/polyfill" into main javascript file or add 
+it into module.exports entry entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+13. Add fonts. Write rules. Add additional folder.
+14. Add pictures. Write rules. Add additional folder.
+15. install img minimizer npm install image-webpack-loader --save-dev . Then go to the site npm webpack loader and take from there options and
+past in webpack.config after loader, 
+*/
