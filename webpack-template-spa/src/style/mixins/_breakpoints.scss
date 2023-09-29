@@ -1,5 +1,0 @@
-@mixin big-desktop {
-    @media (max-width: $big-laptop) {
-        @content;
-    }
-}
